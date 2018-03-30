@@ -75,7 +75,7 @@ function opensky_close_container_wrap() {
 //* Enqueue Scripts and Styles
 add_action( 'wp_enqueue_scripts', 'opensky_enqueue_scripts_styles' );
 function opensky_enqueue_scripts_styles() {
-	wp_enqueue_style( 'custom', get_stylesheet_directory_uri() . '/custom.css' );
+	wp_enqueue_style( 'custom', get_stylesheet_directory_uri() . '/custom.css', array( 'generate-child' ) );
 }
 
 //* Include More PHP Customizations
