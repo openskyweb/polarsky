@@ -1,2 +1,59 @@
 /* Add Your Custom CSS Below This Line
 ---------------------------------------------------------------- */
+
+/* GRAVITY FORMS */
+.site-container .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), 
+.site-container .gform_wrapper textarea, 
+.site-container .gform_wrapper form select {
+	background-color: #fff;
+	border: 1px solid #eee;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 12px;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+.ui-datepicker-title select {
+	padding: 3px;
+	font-size: 1em;
+	margin: 2.5%;
+}
+.site-container .gform_wrapper form .ginput_container_multiselect select {
+	padding: 2px 0 2px 3px;
+}
+.site-container .gform_wrapper form .gfield_checkbox li input, 
+.site-container .gform_wrapper form  .gfield_checkbox li input[type=checkbox], 
+.site-container .gform_wrapper form .gfield_radio li input[type=radio] {
+	margin-top: 0;
+}
+.site-container .gform_wrapper form label.gfield_label {
+	font-weight: 400;
+}
+.site-container .gform_wrapper form .top_label div.ginput_container {
+	margin-top: 0;
+}
+::-moz-placeholder {
+	color: #BFC0C0;
+}
+::-webkit-input-placeholder {
+	color: #BFC0C0;
+}
+/* END GFORM */
+
+/* CREDITS */
+#credits {
+	font-size: .75em;
+	text-align: center;
+	display: block;
+}
+/* END CREDITS */
+
+/* BEAVER BUILDER/THEMER DEFAULTS */
+header .fl-row-content-wrap,
+footer .fl-row-content-wrap  {
+	background: #fff;
+}
+header.fl-theme-builder-header-scrolled {
+	border-bottom: 1px solid #f5f5f5;
+}
+/* END BEAVER BUILDER */
