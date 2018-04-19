@@ -8,3 +8,10 @@
  Version:      0.1
 */
 
+/* Hide Page Title when BB in use */
+.fl-builder .entry-header {
+	display: none;
+}
+.fl-builder .entry-content {
+	margin-top: 0;
+}
