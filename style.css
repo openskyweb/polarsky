@@ -15,3 +15,8 @@
 .fl-builder .entry-content {
 	margin-top: 0;
 }
+
+/* Hide Featured Image on Single Pages */
+.page-header-image {
+	display: none;
+}
