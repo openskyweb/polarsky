@@ -38,6 +38,12 @@
 ::-webkit-input-placeholder {
 	color: #BFC0C0;
 }
+body .gform_wrapper ul li.gfield {
+	padding-bottom: 0;
+}
+.gform_wrapper .top_label .large input.medium.datepicker {
+	width: 100%;
+}
 /* END GFORM */
 
 /* CREDITS */
