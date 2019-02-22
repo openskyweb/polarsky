@@ -43,7 +43,7 @@ function opensky_credits_function( $atts, $content = null ) {
 	extract( shortcode_atts( array(
 		'oscredit' => 'true', //set true|false for link to Open Sky
 		'title' => 'Open Sky Web Studio',
-		'link' => 'http://www.openskywebstudio.com',
+		'link' => 'https://www.openskywebstudio.com',
 		'link_title' => 'Open Sky Web Studio | Clean, Effective Websites',
 		'linebreak' => 'true',
 	), $atts ) );
