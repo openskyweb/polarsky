@@ -63,3 +63,16 @@ header.fl-theme-builder-header-scrolled {
 	border-bottom: 1px solid #f5f5f5;
 }
 /* END BEAVER BUILDER */
+
+
+/* ADD LOCAL FONT */
+/*
+@font-face {
+	font-family: 'Marydale';
+	src:
+		url('fonts/marydale-webfont.woff2') format('woff2'),
+		url('fonts/marydale-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
