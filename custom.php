@@ -34,3 +34,36 @@ function opensky_add_local_fonts_bb ( $system_fonts ) {
 	);
 	return $system_fonts;
 }
+
+// HEADER Hook
+add_action('wp_head', 'opensky_head_code');
+function opensky_head_code() {
+	?>
+	<!-- INSERT HTML HEADER CODE HERE -->
+
+
+	<!-- END CUSTOM HTML HEADER CODE -->
+	<?php
+}
+
+// BODY Hook
+add_action('generate_before_header', 'opensky_body_code');
+function opensky_body_code() {
+	?>
+	<!-- INSERT HTML BODY CODE HERE -->
+
+
+	<!-- END CUSTOM HTML BODY CODE -->
+	<?php
+}
+
+// FOOTER Hook
+add_action('wp_footer', 'opensky_footer_code');
+function opensky_footer_code() {
+	?>
+	<!-- INSERT HTML FOOTER CODE HERE -->
+
+
+	<!-- END CUSTOM HTML FOOTER CODE -->
+	<?php
+}
