@@ -79,7 +79,7 @@ function opensky_enqueue_scripts_styles() {
 }
 
 // Image size for full width backgrounds
-add_image_size( 'full-width', 2048, 2048, false ); // width, height, crop
+//add_image_size( 'full-width', 2048, 2048, false ); // width, height, crop
 
 // Add Additional Image Sizes to Beaver Builder chooser
 // https://kb.wpbeaverbuilder.com/article/382-add-custom-image-sizes
