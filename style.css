@@ -20,3 +20,8 @@
 .page-header-image {
 	display: none;
 }
+
+/* Hide widget title for custom class hidetitle */
+.hidetitle .widgettitle {
+	display: none;
+}
