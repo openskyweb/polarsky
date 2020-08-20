@@ -1,0 +1,155 @@
+
+/* BUTTONS STYLES */
+.site-container .fl-builder-content a.fl-button,
+.site-container .fl-builder-content a.fl-button:visited,
+.site-container button:not(.hamburger),
+.site-container input[type="button"],
+.site-container input[type="reset"],
+.site-container input[type="submit"],
+.site-container a.button,
+.site-container a.button:visited,
+.site-container .button a,
+.site-container .button a:visited,
+.site-container a.button.menu-item,
+.site-container a.button.menu-item:visited,
+.site-container .button.menu-item a,
+.site-container .button.menu-item a:visited,
+.site-container .wp-block-button a,
+.site-container .wp-block-button a:visited {
+	background: #86AF49;
+	color: #fff;
+	font-size: 14px;
+	padding: 12px 24px;
+	etter-spacing: 0.5px;
+	ont-weight: 400;
+	ext-transform: uppercase;
+	/* Borders */
+	border: none;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	/* Shadows */
+	-webkit-box-shadow: inset 0 -3px 0 0 rgba(0,0,0,.1);
+	-moz-box-shadow: inset 0 -3px 0 0 rgba(0,0,0,.1);
+	box-shadow: inset 0 -3px 0 0 rgba(0,0,0,.1);
+	text-decoration: none;
+}
+.site-container .fl-builder-content a.fl-button *,
+.site-container .fl-builder-content a.fl-button:visited * {
+	color: #fff;
+}
+.gform_wrapper .gform_footer input.button, 
+.gform_wrapper .gform_footer input[type=submit], 
+.gform_wrapper .gform_page_footer input.button, 
+.gform_wrapper .gform_page_footer input[type=submit] {
+	font-size: 14px !important;
+}
+
+/* BUTTONS: HOVER */
+.site-container .fl-builder-content a.fl-button:focus,
+.site-container .fl-builder-content a.fl-button:hover,
+.site-container button:not(.hamburger):focus,
+.site-container button:not(.hamburger):hover,
+.site-container input[type="button"]:focus,
+.site-container input[type="button"]:hover,
+.site-container input[type="reset"]:focus,
+.site-container input[type="reset"]:hover,
+.site-container input[type="submit"]:focus,
+.site-container input[type="submit"]:hover,
+.site-container a.button:focus,
+.site-container a.button:hover,
+.site-container .button a:focus,
+.site-container .button a:hover,
+.site-container a.button.menu-item:focus,
+.site-container a.button.menu-item:hover,
+.site-container .button.menu-item a:focus,
+.site-container .button.menu-item a:hover,
+.site-container .wp-block-button a:focus,
+.site-container .wp-block-button a:hover {
+	background: #3F4F5E;
+	color: #BFC0C0;
+	border: none;
+}
+.site-container .fl-builder-content a.fl-button:focus *,
+.site-container .fl-builder-content a.fl-button:hover *  {
+	color: #BFC0C0;
+}
+
+/* BUTTONS: GHOST */
+.site-container button.ghost,
+.site-container a.button.ghost,
+.site-container a.button.ghost:visited,
+.site-container .fl-builder-content .ghost a.fl-button,
+.site-container .fl-builder-content .ghost a.fl-button:visited {
+	background: transparent;
+	border: 2px solid #4f5d75;
+	color: #4f5d75;
+	/* Shadows */
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.site-container .ghost a.fl-button *,
+.site-container .ghost a.fl-button:visited * {
+	color: #4f5d75;
+}
+
+/* BUTTONS: GHOST HOVER */
+.site-container button.ghost:focus,
+.site-container button.ghost:hover,
+.site-container a.button.ghost:focus,
+.site-container a.button.ghost:hover,
+.site-container .fl-builder-content .ghost a.fl-button:focus,
+.site-container .fl-builder-content .ghost a.fl-button:hover {
+	background: #4f5d75;
+	color: #BFC0C0;
+	border: 2px solid transparent;
+	/* Shadows */
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.site-container .fl-builder-content .ghost a.fl-button:focus *,
+.site-container .fl-builder-content .ghost a.fl-button:hover *  {
+	color: #BFC0C0;
+}
+
+/* END BUTTON STYLES */
+
+/* FONT STYLES */
+h1, h2, h3,
+h4, h5, h6 {
+	margin-bottom: 10px;
+	line-height: 1.2;
+}
+h4 {
+	font-family: "", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+h5 {
+	font-family: "", sans-serif;
+	font-weight: bold;
+	font-size: 21px;
+}
+h6 {
+	font-family: "", sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+h1, h1 a, h1 a:visited, h1 a:hover, h1 a:active,
+h2, h2 a, h2 a:visited, h2 a:hover, h2 a:active,
+h3, h3 a, h3 a:visited, h3 a:hover, h3 a:active,
+h4, h4 a, h4 a:visited, h4 a:hover, h4 a:active,
+h5, h5 a, h5 a:visited, h5 a:hover, h5 a:active,
+h6, h6 a, h6 a:visited, h6 a:hover, h6 a:active {
+	color: #353535;
+}
+/* END FONT STYLES */
+
+/* Fix for Gutenberg responsive embeds putting too much padding on top */
+.wp-embed-responsive .wp-block-embed.wp-embed-aspect-1-1 .wp-block-embed__wrapper:before, .wp-embed-responsive .wp-block-embed.wp-embed-aspect-1-2 .wp-block-embed__wrapper:before, .wp-embed-responsive .wp-block-embed.wp-embed-aspect-4-3 .wp-block-embed__wrapper:before, .wp-embed-responsive .wp-block-embed.wp-embed-aspect-9-16 .wp-block-embed__wrapper:before, .wp-embed-responsive .wp-block-embed.wp-embed-aspect-16-9 .wp-block-embed__wrapper:before, .wp-embed-responsive .wp-block-embed.wp-embed-aspect-18-9 .wp-block-embed__wrapper:before, .wp-embed-responsive .wp-block-embed.wp-embed-aspect-21-9 .wp-block-embed__wrapper:before {
+        padding-top: 0;
+}
