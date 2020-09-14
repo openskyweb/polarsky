@@ -69,7 +69,7 @@ function opensky_open_container_wrap() {
 }
 add_action( 'wp_footer ', 'opensky_close_container_wrap', 0 );
 function opensky_close_container_wrap() {
-	echo '</div><!-- .full-container -->';
+	echo '</div><!-- .site-container -->';
 }
 
 //* Enqueue Scripts and Styles
