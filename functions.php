@@ -97,5 +97,15 @@ function insert_custom_image_sizes($sizes) {
 	return $sizes;
 }
 
+// Disable Full Screen as default editing in Block Editor
+// https://xomisse.com/blog/disable-fullscreen-gutenberg/#:~:text=How%20to%20easily%20disable%20fullscreen,will%20now%20return%20to%20normal.
+if (is_admin()) { 
+	function opensky_disable_editor_fullscreen_by_default() {
+		$script = "jQuery( window ).load(function() { const isFullscreenMode = wp.data.select( 'core/edit-post' ).isFeatureActive( 'fullscreenMode' ); if ( isFullscreenMode ) { wp.data.dispatch( 'core/edit-post' ).toggleFeature( 'fullscreenMode' ); } });";
+		wp_add_inline_script( 'wp-blocks', $script );
+	}
+	add_action( 'enqueue_block_editor_assets', 'opensky_disable_editor_fullscreen_by_default' );
+}
+
 //* Include More PHP Customizations
 file_exists(get_stylesheet_directory() . '/custom.php') AND include_once get_stylesheet_directory() . '/custom.php';
