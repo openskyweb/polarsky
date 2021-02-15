@@ -9,10 +9,10 @@
 .site-container a.button:visited,
 .site-container .button a,
 .site-container .button a:visited,
-.site-container a.button.menu-item,
-.site-container a.button.menu-item:visited,
-.site-container .button.menu-item a,
-.site-container .button.menu-item a:visited,
+.site-container .menu a.button.menu-item,
+.site-container .menu a.button.menu-item:visited,
+.site-container .menu .button.menu-item a,
+.site-container .menu .button.menu-item a:visited,
 .site-container .wp-block-button a,
 .site-container .wp-block-button a:visited {
 	background: #86AF49;
@@ -59,10 +59,10 @@
 .site-container a.button:hover,
 .site-container .button a:focus,
 .site-container .button a:hover,
-.site-container a.button.menu-item:focus,
-.site-container a.button.menu-item:hover,
-.site-container .button.menu-item a:focus,
-.site-container .button.menu-item a:hover,
+.site-container .menu a.button.menu-item:focus,
+.site-container .menu a.button.menu-item:hover,
+.site-container .menu .button.menu-item a:focus,
+.site-container .menu .button.menu-item a:hover,
 .site-container .wp-block-button a:focus,
 .site-container .wp-block-button a:hover {
 	background: #3F4F5E;
