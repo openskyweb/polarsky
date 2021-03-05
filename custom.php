@@ -35,6 +35,13 @@ function opensky_add_local_fonts_bb ( $system_fonts ) {
 	return $system_fonts;
 }
 
+// Add class to all pages for full width
+add_filter( 'body_class','opensky_body_classes' );
+function opensky_body_classes( $classes ) { 
+	$classes[] = 'full-width-content';     
+	return $classes;
+}
+
 // HEADER Hook
 add_action('wp_head', 'opensky_head_code');
 function opensky_head_code() {
