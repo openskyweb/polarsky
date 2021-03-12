@@ -32,3 +32,14 @@ COMMENTED OUT B/C IT MIGHT BE FIXED
 	padding-top: 0;
 }
 */
+
+/* Compatibility Fix for Flexbox in GeneratePress to work with Beaver Themer */
+.fl-builder-content {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .fl-builder-content {
+        width: auto;
+    }
+}
+/* END Fix */
